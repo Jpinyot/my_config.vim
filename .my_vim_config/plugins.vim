@@ -19,6 +19,9 @@ Plug 'itchyny/lightline.vim'
 "fugitive git wrapper
 Plug 'tpope/vim-fugitive'
 
+"Syntastic syntax checking
+Plug 'scrooloose/syntastic'
+
 "End File
 call plug#end()
 "INIT in .vimrc file with [:PlugInstall] vim command
