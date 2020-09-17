@@ -1,3 +1,11 @@
 
 ##NERDTree
 https://github.com/preservim/nerdtree
+https://github.com/preservim/nerdtree/blob/master/doc/NERDTree.txt
+
+##Gruvbox
+https://github.com/morhetz/gruvbox
+
+##Lightline
+https://github.com/itchyny/lightline.vim
+https://github.com/itchyny/lightline.vim/blob/master/doc/lightline.txt
