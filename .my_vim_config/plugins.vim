@@ -4,9 +4,6 @@ call plug#begin('~/.vim/plugged')
 "NERDTree
 Plug 'scrooloose/nerdtree'
 
-"Dracula Theme
-"Plug 'dracula/vim',{'as':'dracula'}
-
 " gruvbox colorscheme
 Plug 'morhetz/gruvbox'
 
@@ -21,6 +18,9 @@ Plug 'tpope/vim-fugitive'
 
 "Syntastic syntax checking
 Plug 'scrooloose/syntastic'
+
+"Ctrlp.vim
+Plug 'ctrlpvim/ctrlp.vim'
 
 "End File
 call plug#end()

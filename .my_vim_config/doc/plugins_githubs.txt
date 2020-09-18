@@ -1,11 +1,18 @@
 
 ##NERDTree
 https://github.com/preservim/nerdtree
-https://github.com/preservim/nerdtree/blob/master/doc/NERDTree.txt
 
 ##Gruvbox
 https://github.com/morhetz/gruvbox
 
 ##Lightline
 https://github.com/itchyny/lightline.vim
-https://github.com/itchyny/lightline.vim/blob/master/doc/lightline.txt
+
+##vim-fugitive
+https://github.com/tpope/vim-fugitive
+
+##syntastic
+https://github.com/vim-syntastic/syntastic
+
+##ctrlp.vim
+https://github.com/ctrlpvim/ctrlp.vim
