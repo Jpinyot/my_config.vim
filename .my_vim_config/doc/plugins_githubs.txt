@@ -19,3 +19,9 @@ https://github.com/ctrlpvim/ctrlp.vim
 
 ##vim-gitgutter
 https://github.com/airblade/vim-gitgutter
+
+##tagbar
+https://github.com/preservim/tagbar
+
+##ctags
+https://github.com/universal-ctags/ctags

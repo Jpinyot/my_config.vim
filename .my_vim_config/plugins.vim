@@ -19,11 +19,16 @@ Plug 'tpope/vim-fugitive'
 "Syntastic syntax checking
 Plug 'scrooloose/syntastic'
 
-"Ctrlp.vim
+"Ctrlp.vim search
 Plug 'ctrlpvim/ctrlp.vim'
 
-"vim-gitutter
+"vim-gitutter show git status of a file
 Plug 'airblade/vim-gitgutter'
+
+""tagbar
+Plug 'majutsushi/tagbar'
+""dependencies:
+"	ctags	; download: universal ctags
 
 "End File
 call plug#end()
