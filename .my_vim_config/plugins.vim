@@ -22,6 +22,9 @@ Plug 'scrooloose/syntastic'
 "Ctrlp.vim
 Plug 'ctrlpvim/ctrlp.vim'
 
+"vim-gitutter
+Plug 'airblade/vim-gitgutter'
+
 "End File
 call plug#end()
 "INIT in .vimrc file with [:PlugInstall] vim command

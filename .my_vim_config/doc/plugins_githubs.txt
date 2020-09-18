@@ -16,3 +16,6 @@ https://github.com/vim-syntastic/syntastic
 
 ##ctrlp.vim
 https://github.com/ctrlpvim/ctrlp.vim
+
+##vim-gitgutter
+https://github.com/airblade/vim-gitgutter

@@ -33,3 +33,6 @@ set tm=500
 if has("gui_macvim")
     autocmd GUIEnter * set vb t_vb=
 endif
+
+"set update time
+set updatetime=100
