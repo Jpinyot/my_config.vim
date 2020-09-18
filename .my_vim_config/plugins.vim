@@ -30,6 +30,9 @@ Plug 'majutsushi/tagbar'
 ""dependencies:
 "	ctags	; download: universal ctags
 
+""commentary
+Plug 'tpope/vim-commentary'
+
 "End File
 call plug#end()
 "INIT in .vimrc file with [:PlugInstall] vim command
