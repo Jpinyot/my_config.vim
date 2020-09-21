@@ -42,13 +42,23 @@ nmap <C-t> :TagbarToggle<CR>
 "gcc=comment
 "gcap=comment paragraph
 
+""Vim-gitgutter
+"config:
+	":GitGutterSignsDisable
+	":GitGutterLineHighlightsEnable
+nmap <C-g> :GitGutterToggle<CR>
+
 ""YCM
 "for cmake need to add: set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 "Commands:
 	"|GoToInclude| subcommand .h <-->.c
+	nmap <C-i> :YcmCompleter GoToInclude<CR>
 	"|GoToDeclaration| subcommand == |GoToDefinition| subcommand
+	nmap <C-d> :YcmCompleter GoToDeclaration<CR>
 	"|GoToReferences| subcommand list of referencies
+	nmap <Space> :YcmCompleter GoToReferences<CR>
 	"'GoToSymbol <symbol query>' subcommand search referencies
+	 "nmap <Space> :YcmCompleter GoToSymbol<CR>
 	"|GoToImprecise| subcommand
 	"|GoTo| subcommand
 	"|GoToImplementation| subcommand
