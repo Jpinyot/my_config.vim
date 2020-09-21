@@ -12,7 +12,7 @@ https://github.com/itchyny/lightline.vim
 https://github.com/tpope/vim-fugitive
 
 ##syntastic
-https://github.com/vim-syntastic/syntastic
+##https://github.com/vim-syntastic/syntastic
 
 ##ctrlp.vim
 https://github.com/ctrlpvim/ctrlp.vim
@@ -28,3 +28,6 @@ https://github.com/universal-ctags/ctags
 
 ##vim-commentary
 https://github.com/tpope/vim-commentary
+
+##youcompleteme
+https://github.com/ycm-core/YouCompleteMe

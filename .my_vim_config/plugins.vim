@@ -17,7 +17,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 
 "Syntastic syntax checking
-Plug 'scrooloose/syntastic'
+""Plug 'scrooloose/syntastic'
 
 "Ctrlp.vim search
 Plug 'ctrlpvim/ctrlp.vim'
@@ -32,6 +32,16 @@ Plug 'majutsushi/tagbar'
 
 ""commentary
 Plug 'tpope/vim-commentary'
+
+""youcompleeteme
+Plug 'valloric/youcompleteme'
+""dependencies
+"	cmake
+"	python
+"	mono
+"	go
+"	nodejs
+"	macOs: macvim
 
 "End File
 call plug#end()

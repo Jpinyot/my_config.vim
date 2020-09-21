@@ -36,3 +36,21 @@ map <C-n> :NERDTreeToggle<CR>
 
 ""TagBar
 nmap <C-t> :TagbarToggle<CR>
+
+""Commentary
+"gc=comment+{motion} ex:(gcu=uncomment current and adjacent lines)
+"gcc=comment
+"gcap=comment paragraph
+
+""YCM
+"for cmake need to add: set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
+"Commands:
+	"|GoToInclude| subcommand .h <-->.c
+	"|GoToDeclaration| subcommand == |GoToDefinition| subcommand
+	"|GoToReferences| subcommand list of referencies
+	"'GoToSymbol <symbol query>' subcommand search referencies
+	"|GoToImprecise| subcommand
+	"|GoTo| subcommand
+	"|GoToImplementation| subcommand
+	"|GoToImplementationElseDeclaration| subcommand
+	"|GoToType| subcommand
