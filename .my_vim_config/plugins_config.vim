@@ -1,28 +1,12 @@
-"" lightline
-let g:lightline = {
-	\	'active': {
-	\	'left': [ ['mode', 'paste'],
-	\	['fugitive', 'readonly', 'filename', 'modified'] ],
-	\	'right': [ [ 'lineinfo' ], ['percent'] ]
-	\	},
-	\	'component': {
-	\	'readonly': '%{&filetype=="help"?"":&readonly?"🔒":""}',
-	\	'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
-	\	'fugitive': '%{exists("*FugitiveHead")?FugitiveHead():""}'
-	\	},
-	\	'component_visible_condition': {
-	\	'readonly': '(&filetype!="help"&& &readonly)',
-	\	'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
-	\	'fugitive': '(exists("*FugitiveHead") && ""!=FugitiveHead())'
-	\	},
-	\	'separator': { 'left': ' ', 'right': ' ' },
-	\	'subseparator': { 'left': ' ', 'right': ' ' }
-	\	}
-
 ""ctrlp
 "[CTRL]+[p] = Ctrlp:
-let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_map = '<c-p>'
+map <C-b> :CtrlPBuffer<CR>
+"<c-o> previus visited file
+"<c-i> next visited file
+":buffers show buffer list
+":bf delete buffer
 
 ""NerdTree
 "NERDTree automatically when emty vim or opening dir
@@ -52,7 +36,7 @@ nmap <C-g> :GitGutterToggle<CR>
 "for cmake need to add: set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 "Commands:
 	"|GoToInclude| subcommand .h <-->.c
-	nmap <C-i> :YcmCompleter GoToInclude<CR>
+	nmap <C-f> :YcmCompleter GoToInclude<CR>
 	"|GoToDeclaration| subcommand == |GoToDefinition| subcommand
 	nmap <C-d> :YcmCompleter GoToDeclaration<CR>
 	"|GoToReferences| subcommand list of referencies
@@ -64,3 +48,25 @@ nmap <C-g> :GitGutterToggle<CR>
 	"|GoToImplementation| subcommand
 	"|GoToImplementationElseDeclaration| subcommand
 	"|GoToType| subcommand
+
+"" lightline
+let g:lightline = {
+	\	'active': {
+	\	'left': [ ['mode', 'paste'],
+	\	['fugitive', 'readonly', 'filename', 'modified'] ],
+	\	'right': [ [ 'lineinfo' ], ['percent'] ]
+	\	},
+	\	'component': {
+	\	'readonly': '%{&filetype=="help"?"":&readonly?"🔒":""}',
+	\	'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
+	\	'fugitive': '%{exists("*FugitiveHead")?FugitiveHead():""}'
+	\	},
+	\	'component_visible_condition': {
+	\	'readonly': '(&filetype!="help"&& &readonly)',
+	\	'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
+	\	'fugitive': '(exists("*FugitiveHead") && ""!=FugitiveHead())'
+	\	},
+	\	'separator': { 'left': ' ', 'right': ' ' },
+	\	'subseparator': { 'left': ' ', 'right': ' ' }
+	\	}
+

@@ -34,6 +34,7 @@ Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-commentary'
 
 ""youcompleeteme
+"for cmake need to add: set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 Plug 'valloric/youcompleteme'
 ""dependencies
 "	cmake
