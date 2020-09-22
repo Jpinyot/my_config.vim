@@ -26,11 +26,11 @@ nmap <C-t> :TagbarToggle<CR>
 "gcc=comment
 "gcap=comment paragraph
 
-""Vim-gitgutter
+""Vim-gitgutter NO USING IT
 "config:
 	":GitGutterSignsDisable
 	":GitGutterLineHighlightsEnable
-nmap <C-g> :GitGutterToggle<CR>
+""nmap <C-g> :GitGutterToggle<CR>
 
 ""YCM
 "for cmake need to add: set( CMAKE_EXPORT_COMPILE_COMMANDS ON )

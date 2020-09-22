@@ -23,7 +23,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
 
 "vim-gitutter show git status of a file
-Plug 'airblade/vim-gitgutter'
+"Plug 'airblade/vim-gitgutter'
 
 ""tagbar
 Plug 'majutsushi/tagbar'
