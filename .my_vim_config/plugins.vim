@@ -17,7 +17,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 
 "Syntastic syntax checking
-""Plug 'scrooloose/syntastic'
+"Plug 'scrooloose/syntastic'
 
 "Ctrlp.vim search
 Plug 'ctrlpvim/ctrlp.vim'
@@ -35,6 +35,7 @@ Plug 'tpope/vim-commentary'
 
 ""youcompleeteme
 "for cmake need to add: set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
+"need to .install.py
 Plug 'valloric/youcompleteme'
 ""dependencies
 "	cmake
@@ -43,6 +44,9 @@ Plug 'valloric/youcompleteme'
 "	go
 "	nodejs
 "	macOs: macvim
+
+""EasyMotion search commnet
+Plug 'easymotion/vim-easymotion'
 
 "End File
 call plug#end()

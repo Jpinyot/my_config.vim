@@ -11,6 +11,10 @@ set number
 " Colorscheme
 set background=dark
 
+"No modify tabs as spaces
+"set noexpandtab
+
+
 "" Status line
 " Always show the status line
 set laststatus=2
@@ -35,4 +39,4 @@ if has("gui_macvim")
 endif
 
 "set update time
-set updatetime=100
+""set updatetime=100
