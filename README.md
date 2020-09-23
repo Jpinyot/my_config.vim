@@ -1,6 +1,6 @@
-#My VIM Configuration
+# My VIM Configuration
 
-##Installation Guide:
+## Installation Guide:
 
 1. ./install.sh
 2. Run command :PlugInstall on VIM
