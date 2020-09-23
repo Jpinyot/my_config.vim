@@ -34,6 +34,8 @@ nmap <C-t> :TagbarToggle<CR>
 
 ""YCM
 "for cmake need to add: set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
+"Don't show poping window
+set completeopt-=preview
 "Commands:
 	"|GoToInclude| subcommand .h <-->.c
 	nmap <C-f> :YcmCompleter GoToInclude<CR>
