@@ -14,6 +14,8 @@ set background=dark
 "No modify tabs as spaces
 "set noexpandtab
 
+"Search highlight
+set hlsearch!
 
 "" Status line
 " Always show the status line
