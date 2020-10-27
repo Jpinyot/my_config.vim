@@ -1,6 +1,6 @@
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-cp ./.my_vim_config/ ~/
+cp -r .my_vim_config/ ~/
 
-cp ./.vimrc ~/
+cp -r .vimrc ~/
